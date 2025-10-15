@@ -1,0 +1,42 @@
+#dashboardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#statCard {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    min-width: 180px;
+}
+
+#statTitle {
+    font-size: 12px;
+    color: gray;
+}
+
+#statValue {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#statSubtitle {
+    font-size: 11px;
+    color: green;
+}
+
+#chartCard {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#sectionTitle {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,42 @@
+#card {
+    background: white;
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+QTableWidget {
+    font-size: 13px;
+    color: black;
+    gridline-color: #ddd;
+    selection-background-color: #007bff;
+    selection-color: white;
+}
+
+QHeaderView::section {
+    background: #f5f5f5;
+    color: black;
+    font-weight: bold;
+    padding: 6px;
+    border: 1px solid #ddd;
+}
+
+QLineEdit, QComboBox {
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #007bff;
+    font-size: 13px;
+    color: black;
+}
+
+QPushButton {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}

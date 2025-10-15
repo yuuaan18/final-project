@@ -1,0 +1,52 @@
+#sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+}
+
+#appName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+#appSubtitle {
+    font-size: 12px;
+    color: #777;
+}
+
+#navButton {
+    background: transparent;
+    border: none;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+#navButton:hover {
+    background-color: #f0f2f5;
+    color: #000;
+}
+
+#navButton[active="true"] {
+    background-color: #e7f1ff;
+    color: #0a58ca;
+    font-weight: bold;
+    border: 1px solid #b6d4fe;
+}
+
+#logoutButton {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    color: #000;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#logoutButton:hover {
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    color: #b02a37;
+}

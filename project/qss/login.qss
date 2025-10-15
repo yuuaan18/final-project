@@ -1,0 +1,59 @@
+/* App background */
+QWidget {
+    background-color: #ffffff;
+}
+
+/* Login card */
+QFrame#loginCard {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+/* Labels */
+QLabel {
+    color: #000000;
+    font-size: 14px;
+}
+
+/* Small gray label */
+QLabel#demoLabel {
+    color: gray;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+/* Input fields */
+QLineEdit {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #0066FF;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #0066FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #0052cc;
+}
+
+QPushButton:pressed {
+    background-color: #003d99;
+}
+
